@@ -1,0 +1,43 @@
+/* INFO FOR DEVS
+
+1. For media queries used mobile-first approach.*/
+
+:root {
+	--spacing: 15px;
+}
+
+/* BASE STYLE */
+*, ::before, ::after {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	min-height: 100vh;
+}
+
+.layout {
+	padding: 0 var(--spacing);
+	margin: 0 auto;
+}
+
+/* HEADER */
+header {
+	height: 60px;
+}
+
+.header-lst {
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-lst__item {
+	list-style: none;
+	align-items: center;
+}
+
+.header-lst__link {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
